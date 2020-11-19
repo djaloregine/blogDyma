@@ -19,13 +19,17 @@
     }
 
     &-primary {
-        background-color: var(--primary);
+        background-color: var(--accent);
         color: white;
     }
 
     &-secondary {
-        border: 1px solid var(--primary);
+        border: 1px solid var(--accent);
         background-color: white;
-        color: var(--primary);
+        color: var(--accent);
     }
+}
+
+.form-error {
+    color: var(--primary);
 }

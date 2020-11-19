@@ -1,0 +1,55 @@
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .articles-container {
+        max-width: 800px;
+        width: 100%;
+        margin: 5rem 0 10rem 0;
+
+        .article {
+            box-shadow: var(--box-shadow);
+            background-color: white;
+            padding: 0 5rem;
+            border-radius: 3px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 6rem;
+                height: 6rem;
+                border-radius: 50%;
+                margin-top: -3rem;
+            }
+
+            h2 {
+                margin: 2rem 0 0 0;
+            }
+
+            .article-author {
+                color: var(--dark-grey);
+                margin-bottom: 3rem;
+            }
+
+            .article-content {
+                max-width: 550px;
+            }
+
+            .article-actions {
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+                padding: 2rem 0;
+
+                .btn {
+                    border-top: 1px solid var(--divider);
+                    margin-left: 1rem;
+                }
+            }
+        }
+
+    }
+}
